@@ -1,0 +1,612 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper{
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+       
+}
+.start{
+    background: #191919;
+    max-height: 50px;
+}
+#section{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/******START****/
+.orders{
+    max-height: 45px;
+    text-align: center;
+    color: #ffffff;  
+}
+.text__orders{
+    font-size: 14px;
+    line-height: 40px;
+    
+}
+
+/****HEADER***/
+/**FIRST*/
+.nav{
+    background-image: url(../img/Rectangleheader.png);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    min-height: 800px;   
+    background-size: cover;
+    
+}
+    
+.modern1{
+    background-color: #996B60;
+    min-height: 800px;   
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-left: 64px;
+    padding-top: 40px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.menu li a:hover{
+    color: #ffa806;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+
+/*Second*/
+.menu2{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.menu2 li{
+        margin-right: 64px;
+        padding-top: 40px;
+}
+
+.menu2 li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.menu2 li a:hover{
+    color: #ffa806;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.text{
+    padding-left: 69px;
+    margin-top: 200px;
+
+}
+
+.text h1{
+    font-size: 73px;
+    line-height: 96px;
+   max-width: 600px;
+    color: #ffffff;
+}
+
+.text p{
+    margin-top: 34px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 572px;
+}
+
+.button{
+    background-color: #996B60;
+    border: 0.5px white solid;
+    min-height: 52px;
+    min-width: 180px;
+    margin-left: 69px;
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+.button:hover{
+    background: #ffffff;
+    transition: all 0.3s;
+}
+
+/*****SECTION***/
+.main__text{
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+    margin-top: 59px;
+}
+
+.main img{
+    margin-top: 34px;
+    
+}
+
+.main{
+    border-bottom: 1px solid #BDBDBD;
+    min-height: 210px;
+}
+
+
+/**SECTION TWO***/
+
+.made__textdiv{
+    margin-top: 90px;
+}
+
+.made_p{
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+
+.made__text{
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+/***Section Bottle**/
+
+.our__bottle{
+    border-bottom: 1px solid black;
+}
+
+.our__kit{
+    margin-top: 82px;
+}
+
+.our__text{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    line-height: 44px;
+    margin-top: 18px;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.our__p{
+    font-size: 16px;
+    color: #000000;
+    line-height: 28px;
+    text-align: center;
+}
+.but{
+    text-align: center;
+}
+.our__button{
+    background: black;
+    color: #ffffff;
+    min-width: 180px;
+    min-height: 52px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+}
+
+.our__button:hover{
+    border: 1px solid black;
+    background: #ffffff;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+/****SKATAN***/
+.stakan img{
+    border-top: 1px #BDBDBD solid;
+    padding-top: 40px;
+}
+
+.itro__text{
+    font-family: 'DM Serif Display', serif;
+    font-size: 53px;
+    margin-top: 54px;
+    line-height: 80px;
+}
+
+.flavors__p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 59px;
+    margin-bottom: 70px;
+}
+
+
+/******STOL****/
+.tittle__stol{
+    padding-top: 60px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.drink{
+    padding-top: 60px;
+    border-top: 1px solid #BDBDBD;
+}
+
+.drink__text{
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'DM Serif Display', serif;
+}
+.drink__h3{
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'DM Serif Display', serif;
+}
+.drink__p{
+    font-size: 18px;
+    line-height: 32px;
+}
+.drink__text1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 120px;
+}
+
+/***ARTICLE***/
+#article{
+    margin-top: 50px;
+    max-height: 313px;
+    background: #000000;
+}
+
+.susan__text{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    max-width: 300px;
+    padding-top: 95px;
+}
+
+.susan__h3{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 21px;
+    text-align: center;
+    max-width: 300px;
+    padding-top: 17px;
+}
+.susan__p{
+    color: #8A8A8A;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 300px;
+    padding-top: 10px;
+}
+
+
+/****KUST****/
+.kust___img{
+    margin-top: 60px;
+}
+.producers__text{
+    margin-top: 60px;
+    font-family: 'DM Serif Display', serif;
+    color: #000000;
+    font-size: 56px;
+    line-height: 80px;
+    max-width: 600px;
+}
+.producers__h3{
+    font-size: 18px;
+    line-height: 32px; 
+    margin-top: 150px;
+}
+.producers__h5{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.producers__h5 a{
+    text-decoration: none;
+    color: #000000;
+}
+.producers__h5 a:hover{
+    font-size: 13px;
+    transition: 0.3s;
+    color: #000000; 
+}
+/****PRE-END****/
+
+.pre__end{
+    margin-top: 55px;
+    background-image: url(../img/fon.svg);
+    min-height: 568px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mood{
+    max-width: 550px;
+    min-height: 300px;
+    background: black;
+    margin-top: 60px;
+}
+.mood__text{
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.mood__h5{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.mood__butt{
+    min-height: 52px;
+    min-width: 180px;
+    background: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+.mood__butt:hover{
+    background: #000000;
+    border: 1px solid white;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.knopka{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.follow{
+    margin-top: 20px;
+    min-height: 125px;
+    max-width: 550px;
+    background: black;
+}
+
+.follow__text{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+
+.ins{
+    display: flex;
+    justify-content: center;
+}
+.ins li{
+    list-style-type: none; 
+   
+}
+.ins li a{
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+.ins li a:hover{
+    text-decoration: underline white 1px;
+}
+
+
+/********FOOTER***********/
+.footer{
+    min-height: 617px;
+    background: black;
+}
+
+.stay__text{
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px;
+    line-height: 72px;
+    margin-top: 45px;
+    color: #ffffff;
+}
+.stay__h4{
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    max-width: 420px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.input__email{
+    letter-spacing: 0.12px;
+    outline: none;
+    background: none;
+    border: none;
+    min-width: 420px;
+    font-size: 9px;
+    color: #818181;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.input__email:hover{
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.input__butt{
+    background: none;
+    color: #ffffff;
+    border: none;
+}
+
+.explore__text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-top: 55px;
+    padding-left: 30px;
+}
+.explore__foot li{
+    list-style-type: none;
+    padding-top: 21px;
+}
+
+.explore__foot li a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color:#FFFFFF99;   
+}
+.explore__foot li a:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.policy ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.policy ul li{
+    margin-right: 60px;
+    margin-top: 140px;
+}
+
+.policy ul li a{
+    text-decoration: none;
+    color: #FFFFFF99;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.policy ul li a:hover{
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+
+
+/********************ADAPTIVE***************************/
+
+@media (max-width: 575px){
+    .text__orders{
+        font-size: 15px;
+    }
+    .menu li{
+        margin-left: 0;
+    }
+    .menu li a{
+        margin-right: 18px;
+        font-size: 17px;
+        justify-content: center;
+    }
+    .menu2 li a{
+        justify-content: center;
+     font-size: 17px;  
+     margin-right: -44px
+    }
+    .text h1{
+        font-size: 60px;
+        min-width: auto;
+    }
+    .main__text{
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    .main img{
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    .made_p{
+        font-size: 16px;
+    }
+    .our__kit{
+    margin-top: 0px;
+    }
+    .our__p{
+        
+    }
+    #article{
+        min-height: 850px;
+    }
+    .susan__text{
+        margin: 0 auto;
+    }
+    .susan__h3{
+        margin: 0 auto;
+    }
+    .susan__p{
+        margin: 0 auto;
+    }
+    .policy ul li{
+        margin-right: 24px;
+    }
+    .drink__text1{
+        margin-top: 0px;
+    }
+    .producers__h3{
+        margin-top: 50px;
+    }
+  .explore{
+      min-width: 200px;
+  }
+ .button{
+     margin-bottom: 10px;
+ }
+ .text p{
+     font-size: 17px;
+ }
+ .itro__text{
+     font-size: 44px;
+ }
+ .drink__text{
+     margin-top: 25px;
+ }
+ .drink__p{
+     margin-bottom: 25px;
+ }
+ .tittle__stol {
+     padding-top: 5px;
+     border-top: none;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #BDBDBD;
+ }
+ .input__email{
+     min-width: 280px;
+ }
+    }
